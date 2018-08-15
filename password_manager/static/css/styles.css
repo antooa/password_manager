@@ -1,0 +1,98 @@
+body{
+
+    height: 100%;
+    background: radial-gradient(circle, #9fa4a9,  #35526b);
+
+}
+.row{
+
+    margin: auto;
+}
+.btn{
+    text-align: center;
+}
+.main-block{
+    margin-top:15vh;
+    margin-bottom: 15vh;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 44%;
+    padding-bottom: 20px;
+    background-color: #dcdcdc;
+
+    border-radius: 10px;
+}
+.login-signup{
+
+
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: auto;
+    display: flex;
+    height: 70px;
+    background-color:#717171;
+
+}
+.login-signup > .login-menu{
+
+    border-style: solid;
+    border-top-left-radius: 10px;
+    text-align: center;
+    border-color: #71b8d6;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    height: 70px;
+    width: 50%;
+    background-color: #717171;
+}
+.login-signup > .signup-menu{
+    border-top-right-radius: 10px;
+    border-style: solid;
+    border-color: #71b8d6;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+
+
+
+    height: 70px;
+    width: 50%;
+    background-color: #717171;
+
+
+}
+.log-reg-link{
+    font-family: Calibri, fantasy;
+    text-align: center;
+    font-size: x-large;
+
+}
+#login-form-link{
+    color:ghostwhite;
+}
+.log-reg-link input:checked{
+    color: gray;
+}
+.log-reg-link > .login-form-link input:hover{
+    font-size: xx-large;
+
+}
+
+#register-form-link{
+    color: ghostwhite;
+}
+
+.form-holder{
+    margin:10vh auto;
+    position: page;
+    height: max-content;
+    width: 47.6%;
+}
+.btn-primary{
+    margin-top: 5vh;
+    width: 100%;
+}
+
